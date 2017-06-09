@@ -1,0 +1,27 @@
+{
+    "js_lib" : [
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
+    ],
+    "css_lib" : [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css"
+    ],
+    "js_app" : [
+		"src/js/**/*.js"
+	],
+	"css_app" : [
+		"src/less/style.less"
+	],
+    "fonts" : [
+        "bower_components/bootstrap/fonts/*.*"
+    ],
+    "img" : [
+		"src/img/**/*"
+	],
+    "watch_js_app" : [
+        "src/js/**/*.js"
+    ],
+    "watch_css_app" : [
+        "src/less/**/*.less"
+    ]
+}
